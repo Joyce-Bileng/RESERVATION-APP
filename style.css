@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background: url("/image1.png") no-repeat;
+    background: url(/image1.png) no-repeat;
     background-size: cover;
     height: 100dvh;
 
