@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Application de reservation</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <h1>Application de reservation</h1>
+
+        <div class="container">
+            <label> Choisir le type de reservation:</label>
+            <select id="type">
+                <option value="cinema">Cinéma</option>
+                <option value="restaurant">Restaurant</option>
+                <option value="salle">Salle</option>
+            </select>
+
+            <label>Choisir la date :</label>
+            <input type="date" id="date" />
+
+            <label>Choisir l'heure :</label>
+            <select id="heure">
+                <option>09:30</option>
+                <option>12:30</option>
+                <option>14:30</option>
+                <option>18:00</option>
+                <option>20:00</option>
+                <option>22:00</option>
+            </select>
+
+            <button onclick="reserver()">Réserver</button>
+
+            <h2>Réservation</h2>
+            <ul id="liste"></ul>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

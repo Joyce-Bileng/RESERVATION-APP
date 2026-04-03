@@ -1,0 +1,33 @@
+body {
+    background: url(image2.png) no-repeat;
+    background-size: cover;
+    height: 100dvh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.parent {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        background: pink;
+        padding: 1em;
+        border-radius: 1em;
+    }
+}
+
+button {
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+
+    a {
+        text-decoration: none;
+    }
+}

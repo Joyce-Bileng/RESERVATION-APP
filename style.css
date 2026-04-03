@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: url("/image1.png") no-repeat;
+    background-size: cover;
+    height: 100dvh;
+
+    text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    font-size: 14px;
+}
+.container {
+    background: rgb(216, 115, 170);
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(94, 143, 189);
+}
+
+select,
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #74afef;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
